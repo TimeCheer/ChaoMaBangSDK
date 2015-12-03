@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E8A368D1C1034770034C3DD /* HttpProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A368A1C1034770034C3DD /* HttpProtocol.m */; };
+		7E8A368E1C1034770034C3DD /* CMBOauth.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A368C1C1034770034C3DD /* CMBOauth.m */; };
+		7E8A36901C1034C90034C3DD /* CMBOauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8A368B1C1034770034C3DD /* CMBOauth.h */; };
+		7E8A36951C1034E60034C3DD /* CMBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A36921C1034E60034C3DD /* CMBLoginViewController.m */; };
+		7E8A36991C1034F30034C3DD /* ItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A36971C1034F30034C3DD /* ItemButton.m */; };
+		7E8A36A21C103E260034C3DD /* CMBAddonOAO.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8A36A01C103E260034C3DD /* CMBAddonOAO.h */; };
+		7E8A36A31C103E260034C3DD /* CMBAddonOAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A36A11C103E260034C3DD /* CMBAddonOAO.m */; };
+		7E8A36A61C103F8F0034C3DD /* CMBAddonStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8A36A41C103F8F0034C3DD /* CMBAddonStore.h */; };
+		7E8A36A71C103F8F0034C3DD /* CMBAddonStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A36A51C103F8F0034C3DD /* CMBAddonStore.m */; };
+		7E8A36AA1C1055730034C3DD /* CMBAddonBaby.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8A36A81C1055730034C3DD /* CMBAddonBaby.h */; };
+		7E8A36AB1C1055730034C3DD /* CMBAddonBaby.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A36A91C1055730034C3DD /* CMBAddonBaby.m */; };
+		7E8A36AE1C1056230034C3DD /* CMBAddonCloudStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8A36AC1C1056230034C3DD /* CMBAddonCloudStore.h */; };
+		7E8A36AF1C1056230034C3DD /* CMBAddonCloudStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A36AD1C1056230034C3DD /* CMBAddonCloudStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E8A367B1C10344A0034C3DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E8A367D1C10344A0034C3DD /* libCMBSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCMBSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8A36891C1034770034C3DD /* HttpProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpProtocol.h; sourceTree = "<group>"; };
+		7E8A368A1C1034770034C3DD /* HttpProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpProtocol.m; sourceTree = "<group>"; };
+		7E8A368B1C1034770034C3DD /* CMBOauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBOauth.h; sourceTree = "<group>"; };
+		7E8A368C1C1034770034C3DD /* CMBOauth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBOauth.m; sourceTree = "<group>"; };
+		7E8A36911C1034E60034C3DD /* CMBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBLoginViewController.h; sourceTree = "<group>"; };
+		7E8A36921C1034E60034C3DD /* CMBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBLoginViewController.m; sourceTree = "<group>"; };
+		7E8A36931C1034E60034C3DD /* CMBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMBLoginViewController.xib; sourceTree = "<group>"; };
+		7E8A36961C1034F30034C3DD /* ItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemButton.h; sourceTree = "<group>"; };
+		7E8A36971C1034F30034C3DD /* ItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemButton.m; sourceTree = "<group>"; };
+		7E8A36A01C103E260034C3DD /* CMBAddonOAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBAddonOAO.h; sourceTree = "<group>"; };
+		7E8A36A11C103E260034C3DD /* CMBAddonOAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBAddonOAO.m; sourceTree = "<group>"; };
+		7E8A36A41C103F8F0034C3DD /* CMBAddonStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBAddonStore.h; sourceTree = "<group>"; };
+		7E8A36A51C103F8F0034C3DD /* CMBAddonStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBAddonStore.m; sourceTree = "<group>"; };
+		7E8A36A81C1055730034C3DD /* CMBAddonBaby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBAddonBaby.h; sourceTree = "<group>"; };
+		7E8A36A91C1055730034C3DD /* CMBAddonBaby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBAddonBaby.m; sourceTree = "<group>"; };
+		7E8A36AC1C1056230034C3DD /* CMBAddonCloudStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBAddonCloudStore.h; sourceTree = "<group>"; };
+		7E8A36AD1C1056230034C3DD /* CMBAddonCloudStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBAddonCloudStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E8A367A1C10344A0034C3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8A36741C10344A0034C3DD = {
+			isa = PBXGroup;
+			children = (
+				7E8A367F1C10344A0034C3DD /* CMBSDK */,
+				7E8A367E1C10344A0034C3DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8A367E1C10344A0034C3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A367D1C10344A0034C3DD /* libCMBSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E8A367F1C10344A0034C3DD /* CMBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A36961C1034F30034C3DD /* ItemButton.h */,
+				7E8A36971C1034F30034C3DD /* ItemButton.m */,
+				7E8A36911C1034E60034C3DD /* CMBLoginViewController.h */,
+				7E8A36921C1034E60034C3DD /* CMBLoginViewController.m */,
+				7E8A36931C1034E60034C3DD /* CMBLoginViewController.xib */,
+				7E8A36891C1034770034C3DD /* HttpProtocol.h */,
+				7E8A368A1C1034770034C3DD /* HttpProtocol.m */,
+				7E8A368B1C1034770034C3DD /* CMBOauth.h */,
+				7E8A368C1C1034770034C3DD /* CMBOauth.m */,
+				7E8A36A01C103E260034C3DD /* CMBAddonOAO.h */,
+				7E8A36A11C103E260034C3DD /* CMBAddonOAO.m */,
+				7E8A36A41C103F8F0034C3DD /* CMBAddonStore.h */,
+				7E8A36A51C103F8F0034C3DD /* CMBAddonStore.m */,
+				7E8A36A81C1055730034C3DD /* CMBAddonBaby.h */,
+				7E8A36A91C1055730034C3DD /* CMBAddonBaby.m */,
+				7E8A36AC1C1056230034C3DD /* CMBAddonCloudStore.h */,
+				7E8A36AD1C1056230034C3DD /* CMBAddonCloudStore.m */,
+			);
+			path = CMBSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E8A368F1C1034970034C3DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8A36AE1C1056230034C3DD /* CMBAddonCloudStore.h in Headers */,
+				7E8A36AA1C1055730034C3DD /* CMBAddonBaby.h in Headers */,
+				7E8A36A61C103F8F0034C3DD /* CMBAddonStore.h in Headers */,
+				7E8A36A21C103E260034C3DD /* CMBAddonOAO.h in Headers */,
+				7E8A36901C1034C90034C3DD /* CMBOauth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E8A367C1C10344A0034C3DD /* CMBSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8A36861C10344A0034C3DD /* Build configuration list for PBXNativeTarget "CMBSDK" */;
+			buildPhases = (
+				7E8A36791C10344A0034C3DD /* Sources */,
+				7E8A367A1C10344A0034C3DD /* Frameworks */,
+				7E8A367B1C10344A0034C3DD /* CopyFiles */,
+				7E8A368F1C1034970034C3DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMBSDK;
+			productName = CMBSDK;
+			productReference = 7E8A367D1C10344A0034C3DD /* libCMBSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E8A36751C10344A0034C3DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TianQing;
+				TargetAttributes = {
+					7E8A367C1C10344A0034C3DD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7E8A36781C10344A0034C3DD /* Build configuration list for PBXProject "CMBSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E8A36741C10344A0034C3DD;
+			productRefGroup = 7E8A367E1C10344A0034C3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E8A367C1C10344A0034C3DD /* CMBSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E8A36791C10344A0034C3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8A36AF1C1056230034C3DD /* CMBAddonCloudStore.m in Sources */,
+				7E8A36A71C103F8F0034C3DD /* CMBAddonStore.m in Sources */,
+				7E8A36A31C103E260034C3DD /* CMBAddonOAO.m in Sources */,
+				7E8A36951C1034E60034C3DD /* CMBLoginViewController.m in Sources */,
+				7E8A368E1C1034770034C3DD /* CMBOauth.m in Sources */,
+				7E8A36991C1034F30034C3DD /* ItemButton.m in Sources */,
+				7E8A368D1C1034770034C3DD /* HttpProtocol.m in Sources */,
+				7E8A36AB1C1055730034C3DD /* CMBAddonBaby.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E8A36841C10344A0034C3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E8A36851C10344A0034C3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E8A36871C10344A0034C3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E8A36881C10344A0034C3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E8A36781C10344A0034C3DD /* Build configuration list for PBXProject "CMBSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8A36841C10344A0034C3DD /* Debug */,
+				7E8A36851C10344A0034C3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8A36861C10344A0034C3DD /* Build configuration list for PBXNativeTarget "CMBSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8A36871C10344A0034C3DD /* Debug */,
+				7E8A36881C10344A0034C3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E8A36751C10344A0034C3DD /* Project object */;
+}
